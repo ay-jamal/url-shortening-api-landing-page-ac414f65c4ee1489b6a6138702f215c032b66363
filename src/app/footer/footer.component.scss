@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .social {
+    ul {
+      display: flex;
+      gap: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+ul li {
+  color: var(--clr-gray);
+  padding-block: 0.2rem;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

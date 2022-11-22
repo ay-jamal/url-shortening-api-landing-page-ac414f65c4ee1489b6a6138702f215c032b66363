@@ -1,0 +1,13 @@
+<div class="form">
+  <div class="input-group">
+    <input
+      name="shorten"
+      [(ngModel)]="shorten"
+      #text
+      type="text"
+      placeholder="Shorten a link here..."
+    />
+
+    <button type="btn" (click)="short(text)">Shorten It!</button>
+  </div>
+</div>
